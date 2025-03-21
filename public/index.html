@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonepe</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>   tailwind.config = {
+            theme: {
+                extend: {
+                    screens: {
+
+                        xs: '300px', // Custom extra-small breakpoint
+                        sm: '640px', // Small breakpoint
+                        md: '768px', // Medium breakpoint
+                        lg: '1024px', // Large breakpoint
+                        xl: '1280px', // Extra-large breakpoint
+                    },
+                },
+            },
+        };</script>
+</head>
+
+<body id="body" class="grid grid-cols-[0.5fr_5.7fr_3fr_0.5fr]  grid-rows-[2fr_auto_auto_auto] ">
+    <header class="z-10 bg-white h-16 col-span-full  flex items-center justify-between px-8 sticky top-0 border-b-2 ">
+        <div class="flex items-center justify-center gap-6 text-sm text-gray-500 font-medium ">
+            <div class="flex items-center justify-center gap-2"><img class="w-11 h-10"
+                    src="https://cdn-icons-png.flaticon.com/128/14417/14417695.png" alt="">
+                <h1 class="text-2xl text-gray-500 font-semibold">Google Play</h1>
+            </div>
+            <a class=" hover:text-green-600 xs:hidden md:block" href="#">Games</a>
+            <a class=" hover:text-green-600 xs:hidden md:block" href="#">Apps</a>
+            <a class=" hover:text-green-600 xs:hidden md:block" href="#">Movies</a>
+            <a class=" hover:text-green-600 xs:hidden md:block" href="#">Books</a>
+            <a class=" hover:text-green-600 xs:hidden md:block" href="#">Kids</a>
+        </div>
+        <div class="flex items-center justify-center gap-8 xs:hidden md:flex"> <img class="w-5 h-5 opacity-60"
+                src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png" alt="">
+            <img class="w-5 h-5 opacity-60" src="https://cdn-icons-png.flaticon.com/128/84/84264.png" alt="">
+            <img class="w-8 h-8 rounded-full"
+                src="https://cdn.pixabay.com/photo/2023/04/21/15/42/portrait-7942151_640.jpg" alt="">
+        </div>
+    </header>
+    <div class="col-span-full px-28 pt-4 xs:col-span-full xs:p-8 md:col-span-full   md:pl-28">
+        <div class="flex items-center justify-between">
+            <div>
+                <h1 class="text-6xl font-semibold">
+                    <div>PhonePe UPI, Payment, </div>Recharge
+                </h1>
+                <div class="pt-4">
+                    <p class="text-sm font-semibold text-green-600">PhonePe</p>
+                    <p class="text-xs text-gray-600 font-semibold">Contains ads</p>
+                </div>
+                <div class="flex pt-10 ">
+                    <div class=" w-28 border-r px-4">
+                        <div class="flex items-center justify-center ">
+                            <p class="text-xs font-medium">4.2 </p> <img class="w-3 h-3"
+                                src="https://cdn-icons-png.flaticon.com/128/2893/2893811.png" alt="">
+                        </div>
+                        <p class="text-xs pt-1 text-gray-500 font-medium">12M reviews</p>
+                    </div>
+                    <div class=" w-28 border-r px-4">
+                        <div class="flex items-center justify-center ">
+                            <p class="text-xs font-medium">500M+ </p>
+                        </div>
+                        <p class="text-xs pt-1 text-gray-500 font-medium">Downloads</p>
+                    </div>
+                    <div class=" w-32 border-r px-4">
+                        <div class="flex items-center justify-center ">
+                            <p class="border border-black text-xs font-semibold">3+ </p>
+                        </div>
+                        <div class="flex items-center">
+                            <p class="text-xs pt-1 text-gray-500 font-medium">Rated for 3+</p><img
+                                class="w-3 h-3 opacity-50" src="https://cdn-icons-png.flaticon.com/128/5258/5258991.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-4 py-8">
+                    <div
+                        class="flex items-center justify-center rounded-lg w-52 h-10 bg-green-700 p-4 text-white font-semibold ">
+                        Install on more devices</div>
+                    <div class="flex justify-center items-center gap-2"><img class="w-6 h-6"
+                            src="https://cdn-icons-png.flaticon.com/128/1828/1828878.png" alt="">
+                        <p class="text-green-700 font-medium">Share</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 items-center"><img class="w-6 h-6 opacity-55"
+                        src="https://cdn-icons-png.flaticon.com/128/10278/10278915.png" alt="">
+                    <p class="text-sm text-gray-500 font-normal">This app is available for all of your devices</p>
+                </div>
+            </div>
+            <div class="mt-16"><img class="w-64 pt-0" src="./img/Screenshot 2025-01-08 095928.png" alt=""></div>
+        </div>
+    </div>
+    <main class=" col-start-1 col-end-3 pl-28 pt-16 xs:col-span-full xs:p-8 md:col-start-1 md:col-end-3  md:pl-28">
+        <div class="flex items-center gap-2 overflow-scroll scroll "><img class="w-48"
+                src="./img/Screenshot 2025-01-08 122930.png" alt=""><img class="w-48"
+                src="./img/Screenshot 2025-01-08 122946.png" alt=""><img class="w-48"
+                src="./img/Screenshot 2025-01-08 123001.png" alt=""><img class="w-48"
+                src="./img/Screenshot 2025-01-08 123016.png" alt=""> <img class="w-48"
+                src="./img/Screenshot 2025-01-08 123016.png" alt="">
+        </div>
+        <div class="text-gray-400 text-sm font-medium">
+            <h1 class="py-8 text-black font-medium text-lg">What’s new</h1>
+            <p>PhonePe Lending:</p>
+            <p> - Get pre-approved loans seamlessly. Enjoy attractive rates, easy repayments, and self-serve modules.
+            </p>
+            <p> UPI Lite</p>
+            <p> - Experience super-fast payments with near-zero failures</p>
+            <p>- Pay upto ₹500 without any PIN.</p>
+            <p> - Add upto ₹2,000, withdraw anytime, no charges.</p>
+            <p> Rupay Credit Card on UPI</p>
+            <p> - No need for CVV and OTP; pay with PIN</p>
+            <p> - Check credit card balance</p>
+            <p> PhonePe Insurance:</p>
+            <p> - Compare and buy health, life, car and bike insurance plans seamlessly.</p>
+        </div>
+        <div class="text-gray-400 text-sm font-medium">
+            <div class="flex items-center gap-2">
+                <div>
+                    <h1 class="py-2 text-black font-medium text-lg">Data safety
+                    </h1>
+                </div>
+                <div><img class="opacity-50 w-6 h-6" src="https://cdn-icons-png.flaticon.com/128/9312/9312239.png"
+                        alt=""></div>
+            </div>
+            <p>Safety starts with understanding how developers collect and share your data. Data privacy and security
+                practices may vary based on </p>
+            <p> your use, region, and age.The developer provided this information and may update it over time.</p>
+        </div>
+        <div class="  my-10 border p-4 flex flex-col gap-4 rounded-xl">
+            <div>
+                <div class="flex items-center gap-6"> <img class="w-4 h-4 opacity-50"
+                        src="https://cdn-icons-png.flaticon.com/128/1358/1358023.png" alt="">
+                    <p class="text-gray-600 font-medium">No data shared with third parties</p>
+
+
+                </div>
+                <div>
+                    <p class="ml-10 text-gray-600 text-xs font-medium"><span class="underline">Learn more</span> about
+                        how developers declare sharing</p>
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center gap-6"> <img class="w-4 h-4 opacity-50"
+                        src="https://cdn-icons-png.flaticon.com/128/568/568717.png" alt="">
+                    <p class="text-gray-600 font-medium">This app may collect these data types</p>
+
+
+                </div>
+                <div>
+                    <p class="ml-10 text-gray-600 text-xs font-medium">This app may collect these data typesg</p>
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center gap-6"> <img class="w-4 h-4 opacity-50"
+                        src="https://cdn-icons-png.flaticon.com/128/10421/10421346.png" alt="">
+                    <p class="text-gray-600 font-medium">Data is encrypted in transit</p>
+
+
+                </div>
+            </div>
+            <div class="flex items-center gap-6"> <img class="w-4 h-4 opacity-50"
+                    src="https://cdn-icons-png.flaticon.com/128/3132/3132919.png" alt="">
+                <p class="text-gray-600 font-medium">You can request that data be deleted</p>
+
+
+            </div>
+            <div class="flex items-center gap-6"> <img class="w-4 h-4 opacity-50"
+                    src="https://cdn-icons-png.flaticon.com/128/10150/10150709.png" alt="">
+                <p class="text-gray-600 font-medium">UPI payments verified</p>
+            </div>
+            <div class="text-green-600 font-medium text-sm pl-2">See Details</div>
+        </div>
+        <div class="">
+            <p>Rate this app</p>
+            <p class="text-gray-600">Tell others what you think.</p>
+        </div>
+        <div class="my-4 flex items-center justify-center gap-2 rounded-3xl p-2 bg-green-100 w-28 h-8"><img
+                class="w-5 h-5 " src="https://cdn-icons-png.flaticon.com/128/16000/16000799.png" alt="">
+            <p class="text-green-500">Phone</p>
+        </div>
+        <div class="flex items-center justify-between">
+            <div class="flex gap-2"><img class="w-10 h-10 opacity-10"
+                    src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png" alt=""><img
+                    class="w-10 h-10 opacity-10" src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png"
+                    alt=""><img class="w-10 h-10 opacity-10"
+                    src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png" alt=""><img
+                    class="w-10 h-10 opacity-10" src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png"
+                    alt=""><img class="w-10 h-10 opacity-10"
+                    src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png" alt="">
+            </div>
+            <button onclick="rate()">
+                <div class="my-4 flex items-center justify-center gap-2 rounded-lg p-2 bg-green-800 w-36 h-10">
+                    <p class="text-white">Write a review</p>
+                </div>
+            </button>
+            <dialog id="write" close class="w-2/4 bg-white  rounded-lg p-10" >
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4"><img class="w-20" src="img/Screenshot 2025-01-08 095928.png"
+                                alt="">
+                            <div>
+                                <p>PhonePe UPI, Payment, Recharge</p>
+                                <p>Rate this app</p>
+                            </div>
+                        </div>
+                        <button onclick="comment()"><div><img class="w-4" src="https://cdn-icons-png.flaticon.com/128/458/458595.png" alt=""></div></button>
+                    </div>
+                    <div class=" pt-8 flex items-center gap-4">
+                        <div class="rounded-full w-8 h-8 bg-green-500 pt-8"></div>
+        
+                        <p>Sachin Gour</p>
+                    </div>
+                    <div class="pt-8 flex justify-between items-center">
+                        <div class=" flex items-center justify-center gap-4 p-2  "><img class="w-5 h-5 "
+                                src="https://cdn-icons-png.flaticon.com/128/254/254638.png" alt="">
+                            <p class="text-black">
+                                Rate this app for phone</p>
+                        </div>
+                        <div>
+                            <p class="text-green-500">Change</p>
+                        </div>
+                    </div>
+                    <div class="pt-8 flex gap-8"><img class="w-10 h-10 opacity-10"
+                            src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png" alt=""><img
+                            class="w-10 h-10 opacity-10" src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png"
+                            alt=""><img class="w-10 h-10 opacity-10"
+                            src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png" alt=""><img
+                            class="w-10 h-10 opacity-10" src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png"
+                            alt=""><img class="w-10 h-10 opacity-10"
+                            src="https://cdn-icons-png.flaticon.com/128/3303/3303088.png" alt="">
+                    </div>
+                    <div class="border h-16 mt-8 flex items-center rounded-md"><input class="w-full h-12  outline-none pl-6"
+                            placeholder="Describe your experience (optional)" type="text"></div>
+                    <div class="pt-8 text-gray-400">
+                        <p>Reviews are public and include your account and device info. Everyone can see your Google Account
+                            name and photo, and the type of device associated with your review. Developers can also see your
+                            country and device information (such as language, model, and OS version) and may use this
+                            information to respond to you. Past edits are visible to users and the app developer unless you
+                            delete your review. Learn more</p>
+                    </div>
+                    <div class="flex justify-end items-center  "><p class="w-40 h-10 rounded-md flex items-center justify-center bg-gray-300 border  p-4">submit</p></div>
+            </dialog>
+            <div class="bg-pink-500 w-screen h-screen -z-1"></div>
+        </div>
+        <div class="flex items-center justify-between mt-8">
+            <div class="flex items-center justify-between gap-2">
+                <p class="text-xl font-medium">Ratings and reviews</p><img class="w-5 h-5 opacity-60"
+                    src="https://cdn-icons-png.flaticon.com/128/3114/3114931.png" alt="">
+            </div>
+            <div class="flex items-center justify-between gap-2">
+                <p class="text-gray-600">Ratings and reviews are verified</p><img class="w-3 h-3 opacity-60"
+                    src="https://cdn-icons-png.flaticon.com/128/157/157933.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center my-8  gap-4">
+            <div class=" flex items-center justify-center gap-2 rounded-3xl p-2 bg-green-100 w-28 h-8"><img
+                    class="w-5 h-5 " src="https://cdn-icons-png.flaticon.com/128/16000/16000799.png" alt="">
+                <p class="text-green-500">Phone</p>
+            </div>
+            Did you find this helpful?
+        </div>
+        <div class="flex gap-4">
+            <div class="flex flex-col gap-2">
+                <p class="text-6xl">4.2</p>
+                <div class="flex"><img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""></div>
+                <p class="text-gray-600 text-xs">11.9M reviews</p>
+            </div>
+            <div class="flex flex-col items-start justify-start  w-full">
+                <div class="flex w-full items-center gap-2">
+                    <div>
+                        <p class="text-xs text-gray-500">5</p>
+                    </div>
+                    <div class="rounded-2xl w-full  h-2 bg-green-500 "></div>
+                </div>
+                <div class="flex w-full items-center gap-2">
+                    <div>
+                        <p class="text-xs text-gray-500">4</p>
+                    </div>
+                    <div class="rounded-2xl w-full  h-2 bg-gray-200 "></div>
+                </div>
+                <div class="flex w-full items-center gap-2">
+                    <div>
+                        <p class="text-xs text-gray-500">3</p>
+                    </div>
+                    <div class="rounded-2xl w-full  h-2 bg-gray-200 "></div>
+                </div>
+                <div class="flex w-full items-center gap-2">
+                    <div>
+                        <p class="text-xs text-gray-500">2</p>
+                    </div>
+                    <div class="rounded-2xl w-full  h-2 bg-gray-200 "></div>
+                </div>
+                <div class="flex w-full items-center gap-2">
+                    <div>
+                        <p class="text-xs text-gray-500">1</p>
+                    </div>
+                    <div class="rounded-2xl w-full  h-2 bg-gray-200 "></div>
+                </div>
+            </div>
+        </div>
+        <div id="review"> <!-- <div class="pt-16">
+            <div class="flex items-center justify-between mr-8 ">
+                <div class="flex items-center gap-4"><img class="rounded-full w-8 h-8"
+                        src="https://cdn.pixabay.com/photo/2017/06/09/17/11/model-2387582_640.jpg" alt="">
+                    <p>Sachin Gour</p>
+                </div>
+                <div><img class="w-4 " src="https://cdn-icons-png.flaticon.com/128/11803/11803780.png" alt=""></div>
+            </div>
+            <div class="flex items-center gap-2 pt-4">
+                <div class="flex"><img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""></div>
+                <p class="text-gray-500 text-xs">October 30,2024</p>
+            </div>
+            <div class="pt-2">
+                <p class="text-gray-500">I've been using the PhonePe app for a while now, and it has truly simplified my
+                    financial
+                    transactions. The interface is intuitive and user-friendly, making it easy to navigate through
+                    various features. Phonepe is one the best digital payments apps I have used so far. I was using
+                    paytm since 2016 when UPI was introduced but now I have switched to phonepe considering it's fast
+                    services (i.e. customer support services, and other payments related issues) to users.</p>
+            </div>
+            <div class="pt-2 text-gray-500 text-xs">
+                <p>5,649 people found this review helpful</p>
+            </div>
+            <div class="pt-2 text-gray-500 text-xs flex items-center gap-4">
+                <p>Did you find this helpful?</p>
+                <div class=" flex items-center justify-center gap-2 rounded-3xl p-2 border  w-14 h-6">
+                    <p class="text-gray-500">Yes</p>
+                </div>
+                <div class=" flex items-center justify-center gap-2 rounded-3xl p-2  border  w-14 h-6">
+                    <p class="text-gray-500">No</p>
+                </div>
+            </div>
+        </div> -->
+            <!-- <div class="bg-gray-100 mt-8 ml-8 mr-8 p-4">
+            <div class="flex justify-between items-center">
+                <p>PhonePe</p>
+                <p class="text-gray-500 text-xs">October 30, 2024</p>
+            </div>
+            <p class="text-gray-500 text-sm">Hello, Sachin. We're thrilled to hear that you're enjoying our app! Thank
+                you for
+                your review. However, we noticed your 3-star rating, and we would love to know how we can improve your
+                experience further. Please share any specific suggestions or concerns you have so we can make PhonePe
+                even better for you! ∞MS</p>
+        </div> -->
+            <!-- <div class="pt-16">
+            <div class="flex items-center justify-between mr-8 ">
+                <div class="flex items-center gap-4"><img class="rounded-full w-8 h-8"
+                        src="https://cdn.pixabay.com/photo/2017/06/09/17/11/model-2387582_640.jpg" alt="">
+                    <p>Sachin Gour</p>
+                </div>
+                <div><img class="w-4 " src="https://cdn-icons-png.flaticon.com/128/11803/11803780.png" alt=""></div>
+            </div>
+            <div class="flex items-center gap-2 pt-4">
+                <div class="flex"><img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""></div>
+                <p class="text-gray-500 text-xs">October 30,2024</p>
+            </div>
+            <div class="pt-2">
+                <p class="text-gray-500">I've been using the PhonePe app for a while now, and it has truly simplified my
+                    financial
+                    transactions. The interface is intuitive and user-friendly, making it easy to navigate through
+                    various features. Phonepe is one the best digital payments apps I have used so far. I was using
+                    paytm since 2016 when UPI was introduced but now I have switched to phonepe considering it's fast
+                    services (i.e. customer support services, and other payments related issues) to users.</p>
+            </div>
+            <div class="pt-2 text-gray-500 text-xs">
+                <p>5,649 people found this review helpful</p>
+            </div>
+            <div class="pt-2 text-gray-500 text-xs flex items-center gap-4">
+                <p>Did you find this helpful?</p>
+                <div class=" flex items-center justify-center gap-2 rounded-3xl p-2 border  w-14 h-6">
+                    <p class="text-gray-500">Yes</p>
+                </div>
+                <div class=" flex items-center justify-center gap-2 rounded-3xl p-2  border  w-14 h-6">
+                    <p class="text-gray-500">No</p>
+                </div>
+            </div>
+        </div>
+        <div class="pt-16">
+            <div class="flex items-center justify-between mr-8 ">
+                <div class="flex items-center gap-4"><img class="rounded-full w-8 h-8"
+                        src="https://cdn.pixabay.com/photo/2017/06/09/17/11/model-2387582_640.jpg" alt="">
+                    <p>Sachin Gour</p>
+                </div>
+                <div><img class="w-4 " src="https://cdn-icons-png.flaticon.com/128/11803/11803780.png" alt=""></div>
+            </div>
+            <div class="flex items-center gap-2 pt-4">
+                <div class="flex"><img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""> <img class="w-3 h-3 " src="https://cdn-icons-png.flaticon.com/128/17433/17433760.png"
+                        alt=""></div>
+                <p class="text-gray-500 text-xs">October 30,2024</p>
+            </div>
+            <div class="pt-2">
+                <p class="text-gray-500">I've been using the PhonePe app for a while now, and it has truly simplified my
+                    financial
+                    transactions. The interface is intuitive and user-friendly, making it easy to navigate through
+                    various features. Phonepe is one the best digital payments apps I have used so far. I was using
+                    paytm since 2016 when UPI was introduced but now I have switched to phonepe considering it's fast
+                    services (i.e. customer support services, and other payments related issues) to users.</p>
+            </div>
+            <div class="pt-2 text-gray-500 text-xs">
+                <p>5,649 people found this review helpful</p>
+            </div>
+            <div class="pt-2 text-gray-500 text-xs flex items-center gap-4">
+                <p>Did you find this helpful?</p>
+                <div class=" flex items-center justify-center gap-2 rounded-3xl p-2 border  w-14 h-6">
+                    <p class="text-gray-500">Yes</p>
+                </div>
+                <div class=" flex items-center justify-center gap-2 rounded-3xl p-2  border  w-14 h-6">
+                    <p class="text-gray-500">No</p>
+                </div>
+            </div>
+        </div> -->
+        </div>
+
+        <div class="py-16 text-green-500">
+            <p>See all reviews</p>
+        </div>
+        <div class="flex items-center justify-between gap-2">
+            <p class="text-xl font-medium">About this app</p><img class="w-5 h-5 opacity-60"
+                src="https://cdn-icons-png.flaticon.com/128/3114/3114931.png" alt="">
+        </div>
+        <div class="text-gray-500 pt-8">
+            <p>
+                PhonePe is a payments app that allows you to use BHIM UPI, your credit card & debit card or wallet to
+                recharge your mobile phone, pay all your utility bills and to make instant payments at your favourite
+                offline & online stores. You can also invest in mutual funds & buy insurance plans on PhonePe. Get Car &
+                Bike Insurance on our app.
+                Link your bank account on PhonePe and transfer money with BHIM UPI instantly! The PhonePe app is safe
+                and secure, meets all your payment, investment, mutual funds, insurance & banking needs, and is much
+                better than Internet banking.
+            </p>
+        </div>
+        <div class="py-4">
+            <p>Updated on</p>
+            <p class="text-gray-500">Dec 24,2024</p>
+        </div>
+        <div class="flex gap-4 pt-4">
+            <div class=" flex items-center justify-center gap-2 rounded-3xl p-4 border  h-5">
+                <p class="text-gray-500">#1 top free finance</p>
+            </div>
+            <div class=" flex items-center justify-center gap-2 rounded-3xl p-4 border   h-5">
+                <p class="text-gray-500">Finance</p>
+            </div>
+        </div>
+        <div class="flex border-b items-center gap-4 py-16"><img class="w-4"
+                src="https://cdn-icons-png.flaticon.com/128/15486/15486138.png" alt="">
+            <p>Flag as inappropriate</p>
+        </div>
+
+
+
+
+
+    </main>
+    <aside class="col-start-3 col-end-4 pt-10 xs:hidden md:block    ">
+        <div class="flex items-center gap-4 mt-8">
+            <h1 class="ml-4 text-xl font-medium">App support</h1><img class="w-4 h-4"
+                src="https://cdn-icons-png.flaticon.com/128/15281/15281962.png" alt="">
+        </div>
+        <div class="flex items-center gap-4 mt-8">
+            <h1 class="ml-4 text-xl font-medium">More apps to try
+            </h1><img class="w-4 h-4" src="https://cdn-icons-png.flaticon.com/128/271/271226.png" alt="">
+        </div>
+        <div id="sidedata"> <!-- <div class="flex gap-4 items-center mt-8"><img src="./img/Screenshot 2025-01-08 190910.png" alt="">
+        <div>
+            <p>WhatsApp Messenger</p>
+            <p>WhatsApp LLC</p>
+            <div class="flex items-center gap-1">
+                <p> 4.2</p><img class="w-3" src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-4 items-center mt-8"><img src="./img/Screenshot 2025-01-08 190910.png" alt="">
+        <div>
+            <p>WhatsApp Messenger</p>
+            <p>WhatsApp LLC</p>
+            <div class="flex items-center gap-1">
+                <p> 4.2</p><img class="w-3" src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-4 items-center mt-8"><img src="./img/Screenshot 2025-01-08 190910.png" alt="">
+        <div>
+            <p>WhatsApp Messenger</p>
+            <p>WhatsApp LLC</p>
+            <div class="flex items-center gap-1">
+                <p> 4.2</p><img class="w-3" src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-4 items-center mt-8"><img src="./img/Screenshot 2025-01-08 190910.png" alt="">
+        <div>
+            <p>WhatsApp Messenger</p>
+            <p>WhatsApp LLC</p>
+            <div class="flex items-center gap-1">
+                <p> 4.2</p><img class="w-3" src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-4 items-center mt-8"><img src="./img/Screenshot 2025-01-08 190910.png" alt="">
+        <div>
+            <p>WhatsApp Messenger</p>
+            <p>WhatsApp LLC</p>
+            <div class="flex items-center gap-1">
+                <p> 4.2</p><img class="w-3" src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png" alt="">
+            </div>
+        </div> 
+    </div>--></div>
+
+    </aside>
+    <footer class=" col-span-full ">
+        <div class="pl-28 pt-10 flex  gap-52 xs:pl-8 md:pl-28">
+            <div class="flex flex-col gap-2">
+                <p class="text-md text-gray-600">Google Play</p>
+                <p class="text-gray-500 text-sm">Play Pass</p>
+                <p class="text-gray-500 text-sm">Play Points</p>
+                <p class="text-gray-500 text-sm">Gift cards</p>
+                <p class="text-gray-500 text-sm">Redeem</p>
+                <p class="text-gray-500 text-sm">Refund policy</p>
+
+            </div>
+            <div class="flex flex-col gap-2">
+                <p class="text-md text-gray-600">Kids & family</p>
+                <p class="text-gray-500 text-sm">Parent Guide</p>
+                <p class="text-gray-500 text-sm">Family sharing</p>
+            </div>
+        </div>
+        <div class="px-28 pt-10 pb-6 flex items-center justify-between  xs:px-8 md:px-28">
+            <div class="flex items-center gap-4">
+                <p class="text-xs text-gray-500">Terms of Service
+
+                </p>
+                <p class="text-xs text-gray-500">Privacy</p>
+                <p class="text-xs text-gray-500">About Google Play
+
+                </p>
+                <p class="text-xs text-gray-500">Developers
+
+                </p>
+                <p class="text-xs text-gray-500">Google Store</p>
+                <p class="text-xs text-gray-500">All prices include GST</p>
+
+            </div>
+            <div class="flex items-center gap-4"><img class="w-4"
+                    src="https://cdn-icons-png.flaticon.com/128/206/206606.png" alt="">
+                <p class="text-xs text-gray-500">India (English)
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
